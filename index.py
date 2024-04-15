@@ -21,4 +21,6 @@ plt.ylabel('budget')
 plt.title('Matplotlib Bar Chart Showing the Average \
 Budget of Movies in Each Genre')
 
+
 st.pyplot(fig)
+st.table(avg_budget)
